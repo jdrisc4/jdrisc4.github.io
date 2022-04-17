@@ -1,10 +1,10 @@
-h1 {
+/* h1 {
     color: beige;
     font-family: Arial, Helvetica, sans-serif;
-}
+} */
 
 body {
-    background-color: #bcabae;
+    background-color: #bbbbbb;
 }
 
 #body {
@@ -15,7 +15,7 @@ body {
 #name {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    padding-top: 15px;
+    padding-top: 20px;
     padding-left: 90px;
 }
 
@@ -81,4 +81,39 @@ table {
     padding-bottom: 35px;
     padding-top: 15px;
     text-align: center;
+}
+
+ul {
+    border-radius:  25px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6b6060;
+    position: -webkit-sticky; /*safari only*/
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #648080;
+    color: white;
+    border-radius: 25px;
+}
+
+.active {
+    background-color: #557373;
+    border-radius: 25pt;
 }
