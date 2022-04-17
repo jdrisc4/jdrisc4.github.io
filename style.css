@@ -24,7 +24,7 @@ body {
     color: white;
     padding-top: 15px;
     padding-left: 90px;
-    padding-bottom: 10px;;
+    padding-bottom: 10px;
 }
 
 a{
@@ -32,7 +32,7 @@ a{
 }
 
 a:hover {
-    color: blue;
+    color: gray;
 }
 
 hr{
@@ -40,9 +40,45 @@ hr{
     width: 90%
 }
 
-#Jobs {
+#heading {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     padding-top: 15px;
     padding-left: 90px;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-left: 85px;
+}
+
+#resume-information-heading {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-left: 90px;
+}
+
+#resume-information-content {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-left: 120px;
+    font-size: 12pt;
+}
+
+.right {
+    float:right;
+    padding-right: 80px;
+}
+
+.left {
+    font-weight: bold;
+}
+
+#footing {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-bottom: 35px;
+    padding-top: 15px;
+    text-align: center;
 }
